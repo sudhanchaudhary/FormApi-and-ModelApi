@@ -42,7 +42,8 @@ INSTALLED_APPS = [
 
 EXTERNAL_APP=[
     'formapi',
-    'modelapi'
+    'modelapi',
+    'baseView'
 ]
 
 INSTALLED_APPS.extend(EXTERNAL_APP)
