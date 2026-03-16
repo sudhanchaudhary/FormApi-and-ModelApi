@@ -43,7 +43,8 @@ INSTALLED_APPS = [
 EXTERNAL_APP=[
     'formapi',
     'modelapi',
-    'baseView'
+    'baseView',
+    'generic'
 ]
 
 INSTALLED_APPS.extend(EXTERNAL_APP)
@@ -125,4 +126,4 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 MEDIA_ROOT=BASE_DIR/'media'
-MEDIA_DIR='/media/'
+MEDIA_URL='/media/'
